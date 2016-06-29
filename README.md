@@ -1,2 +1,2 @@
 # TelerikAcademy-HTML
-Homework for Telerik Academy HTML course 
+Telerik Academy - HTML homework 
