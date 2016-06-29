@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LinkedIn</title>
+    <style>
+        #purple {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+        <a href="#" id="purple">LinkedIn</a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"> Home</a>
+                </li>
+                <li>
+                    <a href="#"> What is LinkedIn</a>
+                </li>
+                <li>
+                    <a href="#">Join Today</a>
+                </li>
+                <li>
+                   <fieldset>
+                       <legend>Sign in</legend>
+                       <ul type="disk">
+                           <li>
+                               <label for="email">Email:</label>
+                               <input type="email"  id="email" name="Email" pattern="[a-zA-z- ]+@[a-zA-z- ]+.{1}(com|net|bg)"  required />
+                           </li>
+                           <li>
+                               <label for="pass">Password:</label>
+                               <input type="password"  id="pass" name="Password"  required />
+                           </li>
+                           <li>
+                               <input type="button"   name="sign in" value="Sign in" />
+                           </li>
+                       </ul>
+                   </fieldset>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr/>
+    <main>
+        <header>
+            <h1> Over 175 million professionals use LinkedIn to exchange information,ideas and opportunities</h1>
+        </header>
+        <article>
+            <ul>
+                <li> Stay informed about your contacts and industry</li>
+                <li>Find the people & knowledge you need to achieve your goals</li>
+                <li>Control your professional identity online</li>
+            </ul>
+        </article>
+        <section>
+            <h2>Join LinkedInt Today</h2>
+            <fieldset>
+                <legend>Sing Up</legend>
+                <ul>
+                    <li>
+                        <label for="firstname">First Name:</label>
+                        <br/>
+                        <input type="text" id="firstname" name="First Name" required>
+                    </li>
+                     <li>
+                        <label for="lastname">Last Name:</label>
+                        <br/>
+                        <input type="text" id="lastname" name="Last Name" required>
+                    </li>
+                    <li>
+                        <label for="email1">Email:</label>
+                        <br/>
+                        <input type="email"  id="email1" name="Email" pattern="[a-zA-z- ]+@[a-zA-z- ]+.{1}(com|net|bg)" required />
+                    </li>
+                    <li>
+                       <label for="password">Password:</label>
+                       <br/>
+                       <input type="password"  id="password" name="Password"  pattern ="(?=^.{6,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required /> 
+                            <div> 6 or more characters</div>
+                    </li>
+                </ul>
+                <input type="button" name="join now" value="Join Now">
+                <p> Already on LinkedIn?
+                    <a href="#">Sign in</a>
+                </p>
+            </fieldset>
+        </section>
+        <section>
+            <h3> Search for someone by name:</h3>
+            <ul>
+                <li>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+                </li>
+                <li>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+                </li>
+            </ul>
+            <input type="button" name="go" value="Go">
+        </section>
+    </main>
+    <footer>
+        <p>All rights reserved. &copy; LinkedIn 2015</p>
+    </footer>
+</body>
+</html>
